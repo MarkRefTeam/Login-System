@@ -15,7 +15,7 @@ public class FirstLoop {
 
         if (number < 0) {
             System.out.println("Error ,the number is must be greater or equal to zero");
-            return; ///Exits the program if input is invalid!
+            return; ///Exits the program if input is invalid
         }
 
         for (int i = 0; i < number; i++) {
