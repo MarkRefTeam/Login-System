@@ -23,14 +23,17 @@ public class NameCard2 {
         System.out.println("Enter extra information:");
         String extra = scanner.nextLine();
 
-        System.out.println("+--------------------------------+");
-        System.out.printf("| Name: %-23s |\n", name);
-        System.out.printf("| Age: %-23d |\n", age);
-        System.out.printf("| E-mail: %-23s |\n", email);
-        System.out.printf("| Phone: %-23s |\n", phone);
-        System.out.printf("| Social: %-23s |\n", social);
-        System.out.printf("| Extra: %-23s |\n", extra);
-        System.out.println("+--------------------------------+");
+        System.out.println("If your name is longer than 3 nick , Use just the first 3 please");
+        int columnWidth = 40;
+
+        System.out.println("+----------------------------------------------+");
+        System.out.printf("| Name:   %-"+columnWidth+"s |\n", name);
+        System.out.printf("| Age:    %-"+columnWidth+"d |\n", age);
+        System.out.printf("| E-mail: %-"+columnWidth+"s |\n", email);
+        System.out.printf("| Phone:  %-"+columnWidth+"s |\n", phone);
+        System.out.printf("| Social: %-"+columnWidth+"s |\n", social);
+        System.out.printf("| Extra:  %-"+columnWidth+"s |\n", extra);
+        System.out.println("+----------------------------------------------+");
 
         scanner.close();
     }
