@@ -18,8 +18,8 @@ public class TipCalculator {
         int[] prices = {2000, 250, 300, 50, 250};
 
         System.out.println(calculateTip(prices, 20));     //Expected output: 570 (valid)
-        System.out.println(calculateTip(prices, 5));      //Expected outpost: -1 (too low)
-        System.out.println(calculateTip(prices, 90));     //Expected outpost: -1 (tpp high)
+        System.out.println(calculateTip(prices, 5));      //Expected output: -1 (too low)
+        System.out.println(calculateTip(prices, 90));     //Expected output: -1 (tpp high)
 
         /** So many options for upgrade :)
          * Survey!!!!
@@ -57,7 +57,7 @@ public class TipCalculator {
         }
         return rating;
     }
-    
+
     /**
      * The main entry point of the program where we validate input percentages
      * and calculate the tip based on the prices of purchased items.
@@ -117,34 +117,3 @@ public class TipCalculator {
         }
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
